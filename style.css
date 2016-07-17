@@ -1,0 +1,42 @@
+@import 'https://fonts.googleapis.com/css?family=Lato';
+body {
+	background-color: #55acee;
+	color: #fff;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+header {
+	margin-top: 10%;
+}
+h1, h2, h3 {
+	margin: 60px;
+
+	font-weight: 300;
+}
+.trigger, a {
+	display: block;
+	margin: 10px auto;
+	background-color: transparent;
+	color: #fff;
+	font-size: 15px;
+	padding: 10px;
+	border-width: 1px;
+	border-color: #fff;
+	border-style: solid;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	width: 300px;
+}
+.trigger:hover {
+	cursor: pointer;
+}
+.trigger:focus {
+	outline: none;
+}
+a {
+	text-decoration: none;
+	width: 278px;
+}
+.fa-twitter {
+	padding: 0 5px;
+}
